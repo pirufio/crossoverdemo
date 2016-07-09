@@ -8,10 +8,17 @@
  * Controller of the secondTestApp
  */
 angular.module('secondTestApp')
-  .controller('BuildCtrl', function ($scope,BuildList) {
+  .controller('BuildCtrl', function ($scope,BuildList,BuildItem) {
 
-    $scope.buildList = new BuildList();
-    $scope.buildList.load();
-    console.log($scope.buildList);
+    $scope.buildList = [];
+     BuildList.getBuildsList().then(function(data){
+
+       angular.forEach(data.data, function(value,key) {
+         console.info(key);
+         $scope.buildList.push( new BuildItem(value) );
+         console.info(data.data[key].state);
+       });
+
+     });
 
   });

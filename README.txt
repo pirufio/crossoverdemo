@@ -20,8 +20,12 @@ bower install
 
 grunt serve to run website
 
-
 if you have any problem please contact me at: francoandresvalle@gmail.com
+
+4) Run unit tests
+
+npm install grunt-karma --save-dev
+
 
 
 

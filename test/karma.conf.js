@@ -22,7 +22,6 @@ module.exports = function(config) {
       // bower:js
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
-      'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
       'bower_components/angular-animate/angular-animate.js',
       'bower_components/angular-cookies/angular-cookies.js',
       'bower_components/angular-route/angular-route.js',
@@ -37,6 +36,7 @@ module.exports = function(config) {
 
     // list of files / patterns to exclude
     exclude: [
+	  'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js'
     ],
 
     // web server port

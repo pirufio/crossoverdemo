@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Gruntfile.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/data/builds.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/build.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/services/buildItem.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/services/buildList.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/styles/main.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/build.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/main.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/spec/controllers/buildController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/spec/controllers/main.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/spec/services/buildItemService.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/spec/services/buildListService.js" charset="UTF-8" />
   </component>
 </project>

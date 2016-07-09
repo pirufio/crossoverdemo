@@ -15,7 +15,7 @@ angular.module('secondTestApp')
       setData: function (itemData) {
         angular.extend(this, itemData);
         var scope = this;
-        scope.type = itemData.build ? "Build" : "Changelist";
+        scope.type = (itemData.build !== undefined) ? "build" : "firewall";
         scope.timeStarted = scope.timeStarted ? new Date(scope.timeStarted * 1000) : null;
         scope.state = 0;
         scope.completed = true;
@@ -48,9 +48,16 @@ angular.module('secondTestApp')
 
         scope.state = "";
 
-        if(scope.type = "Build") {
+        if(scope.type == "build") {
           if(!scope.completed)
-            $scope.state = "";
+            scope.state = "Pending";
+          else
+            scope.state = scope.passed ? "Complete":"Fail";
+        }else if (scope.type == "firewall") {
+          if(!scope.completed)
+            scope.state = "Running";
+          else
+            scope.state = scope.passed ? "Accepted":"Rejected";
         }
 
       }
