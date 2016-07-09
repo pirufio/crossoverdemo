@@ -12,11 +12,8 @@ angular.module('secondTestApp')
 
     $scope.buildList = [];
      BuildList.getBuildsList().then(function(data){
-
        angular.forEach(data.data, function(value,key) {
-         console.info(key);
          $scope.buildList.push( new BuildItem(value) );
-         console.info(data.data[key].state);
        });
 
      });

@@ -8716,90 +8716,33 @@ body {
   padding: 0;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-/* line 18, ../../app/styles/main.scss */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+/* line 20, ../../app/styles/main.scss */
+.build-list .build-item-container .icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
 }
 
-/* Custom page header */
-/* line 26, ../../app/styles/main.scss */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
-  /* Make the masthead heading the same height as the navigation */
+/* line 37, ../../app/styles/main.scss */
+table tbody tr td .glyphicon {
+  font-size: 32px;
 }
-/* line 31, ../../app/styles/main.scss */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
-
-/* Custom page footer */
 /* line 40, ../../app/styles/main.scss */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+table tbody tr td .glyphicon-check {
+  color: green;
+}
+/* line 43, ../../app/styles/main.scss */
+table tbody tr td .glyphicon-unchecked {
+  color: red;
 }
 
-/* line 46, ../../app/styles/main.scss */
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-/* line 51, ../../app/styles/main.scss */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+/* line 52, ../../app/styles/main.scss */
+.uncompleted td span.glyphicon-check {
+  color: gray !important;
 }
 /* line 55, ../../app/styles/main.scss */
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+.uncompleted td span.glyphicon-unchecked {
+  color: gray !important;
 }
 
-/* Supporting marketing content */
-/* line 62, ../../app/styles/main.scss */
-.marketing {
-  margin: 40px 0;
-}
-/* line 65, ../../app/styles/main.scss */
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* line 72, ../../app/styles/main.scss */
-  .container {
-    max-width: 730px;
-  }
-
-  /* Remove the padding we set earlier */
-  /* line 77, ../../app/styles/main.scss */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* Space out the masthead */
-  /* line 84, ../../app/styles/main.scss */
-  .header {
-    margin-bottom: 30px;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 88, ../../app/styles/main.scss */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}
+/*# sourceMappingURL=main.css.map */

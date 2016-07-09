@@ -1,8 +1,35 @@
-<div class="table-responsive">
-  <table class="table table-hover" ng-repeat="item in buildList">
+
+<table class="table table-hover">
+  <thead>
     <tr>
-      <td>{{item.type}}</td>
-      <td>{{item.state}}</td>
+      <td>
+        Changelist / Build
+      </td>
+      <td>
+        Owner
+      </td>
+      <td>
+        Time Started
+      </td>
+      <td>
+        State
+      </td>
+      <td>
+        Metrics
+      </td>
+      <td>
+        Build
+      </td>
+      <td>
+        Unit Test
+      </td>
+      <td>
+        Functional Test
+      </td>
     </tr>
-  </table>
-</div>
+  </thead>
+  <tbody>
+    <tr build-item="" item="item" ng-repeat="item in buildList" ></tr>
+  </tbody>
+</table>
+
