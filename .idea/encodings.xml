@@ -5,15 +5,19 @@
     <file url="file://$PROJECT_DIR$/app/data/builds.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/build.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/scripts/directives/buildItem.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/scripts/services/buildItem.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/scripts/services/buildList.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/buildDetails.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/buildTable.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/testChart.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/models/buildItem.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/services/buildAPI.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/styles/main.scss" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/templates/build-item.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/build-details.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/build-table.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/test-chart.tpl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/views/build.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test/spec/controllers/buildController.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test/spec/services/buildItemService.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/spec/models/buildItemModel.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test/spec/services/buildListService.js" charset="UTF-8" />
   </component>
 </project>

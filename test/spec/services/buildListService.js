@@ -2,12 +2,12 @@
 
 
 describe('build list service', function () {
-  var BuildList, httpBackend;
+  var BuildAPI, httpBackend;
 
   beforeEach(module('secondTestApp'));
 
-  beforeEach(inject(function (_BuildList_, $httpBackend) {
-    BuildList = _BuildList_;
+  beforeEach(inject(function (_BuildAPI_, $httpBackend) {
+    BuildAPI = _BuildAPI_;
     httpBackend = $httpBackend;
   }));
 
@@ -32,7 +32,7 @@ describe('build list service', function () {
       ]
     });
 
-    BuildList.getBuildsList().then(function(data){
+    BuildAPI.getBuildsList().then(function(data){
       expect(data.data.length).toBe(2);
       expect(data.data[0].build).toBe('Tenrox-R11235');
       expect(data.data[1].changeList).toBe('432462');

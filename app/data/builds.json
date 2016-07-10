@@ -38,7 +38,7 @@
         },
         "functionalTest":{
           "total": 152,
-          "passed": 142,
+          "passed": 0,
           "covered": 76
         }
       }
@@ -67,6 +67,174 @@
         "functionalTest":{
           "total": 4321,
           "passed": 3145,
+          "covered": 23
+        }
+      }
+    },{
+      "changeList":"432462",
+      "owner":"pep",
+      "timeStarted":1397814060,
+      "buildData":{
+        "completion":42
+      }
+    },{
+      "changeList":"432462",
+      "owner":"sammy",
+      "timeStarted":1397818380,
+      "buildData":{
+        "completion":100,
+        "metrics":{
+          "test": {"previous":0,"actual":50},
+          "maintainability": {"previous":55,"actual":30},
+          "security": {"previous":64,"actual":64},
+          "workmanship": {"previous":64,"actual":64}
+        },
+        "build":{
+          "debug":true,
+          "release":false,
+          "date" : 1397814060
+        },
+        "unitTest":{
+          "total": 152,
+          "passed": 142,
+          "covered": 76
+        },
+        "functionalTest":{
+          "total": 152,
+          "passed": 142,
+          "covered": 76
+        }
+      }
+    },{
+      "changeList":"432465",
+      "owner":"jtuck",
+      "timeStarted":1397815074,
+      "buildData":{
+        "completion":70
+      }
+    },{
+      "changeList":"432463",
+      "owner":"jon",
+      "timeStarted":1397818380,
+      "buildData":{
+        "completion":100,
+        "metrics":{
+          "test": {"previous":0,"actual":64},
+          "maintainability": {"previous":55,"actual":53},
+          "security": {"previous":100,"actual":64},
+          "workmanship": {"previous":100,"actual":64}
+        },
+        "build":{
+          "debug":true,
+          "release":false,
+          "date" : 1397814060
+        },
+        "unitTest":{
+          "total": 152,
+          "passed": 142,
+          "covered": 76
+        },
+        "functionalTest":{
+          "total": 152,
+          "passed": 142,
+          "covered": 76
+        }
+      }
+    },{
+      "changeList":"432462",
+      "owner":"jtuck",
+      "timeStarted":1397814060,
+      "buildData":{
+        "completion":70
+      }
+    },{
+      "changeList":"432462",
+      "owner":"frank",
+      "timeStarted":1397818380,
+      "buildData":{
+        "completion":100,
+        "metrics":{
+          "test": {"previous":0,"actual":64},
+          "maintainability": {"previous":55,"actual":53},
+          "security": {"previous":64,"actual":62},
+          "workmanship": {"previous":64,"actual":50}
+        },
+        "build":{
+          "debug":true,
+          "release":true,
+          "date" : 1397815834
+        },
+        "unitTest":{
+          "total": 152,
+          "passed": 25,
+          "covered": 32
+        },
+        "functionalTest":{
+          "total": 152,
+          "passed": 12,
+          "covered": 100
+        }
+      }
+    },{
+      "changeList":"432469",
+      "owner":"micky",
+      "timeStarted":1397812222,
+      "buildData":{
+        "completion":22
+      }
+    },{
+      "changeList":"432462",
+      "owner":"tony",
+      "timeStarted":1397811058,
+      "buildData":{
+        "completion":100,
+        "metrics":{
+          "test": {"previous":0,"actual":100},
+          "maintainability": {"previous":55,"actual":100},
+          "security": {"previous":64,"actual":100},
+          "workmanship": {"previous":64,"actual":100}
+        },
+        "build":{
+          "debug":true,
+          "release":true,
+          "date" : 1397814060
+        },
+        "unitTest":{
+          "total": 152,
+          "passed": 142,
+          "covered": 76
+        },
+        "functionalTest":{
+          "total": 152,
+          "passed": 142,
+          "covered": 76
+        }
+      }
+    },{
+      "build":"Tenrox-R11259",
+      "owner":"",
+      "timeStarted":1397727720,
+      "buildData":{
+        "completion":100,
+        "metrics":{
+          "test": {"previous":100,"actual":64},
+          "maintainability": {"previous":100,"actual":53},
+          "security": {"previous":100,"actual":64},
+          "workmanship": {"previous":100,"actual":72}
+        },
+        "build":{
+          "debug":true,
+          "release":true,
+          "date" : 1397812507
+        },
+        "unitTest":{
+          "total": 185,
+          "passed": 15,
+          "covered": 76
+        },
+        "functionalTest":{
+          "total": 4321,
+          "passed": 1000,
           "covered": 23
         }
       }

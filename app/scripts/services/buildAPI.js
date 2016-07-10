@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('secondTestApp')
-.factory('BuildList', ['$http','BuildItem', function($http) {
+.factory('BuildAPI', ['$http','BuildItem', function($http) {
 
     return {
       getBuildsList: function() {
